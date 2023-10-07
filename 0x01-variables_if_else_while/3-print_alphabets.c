@@ -3,25 +3,21 @@
  * main - Entry point
  * Return: Everytime return 0 (success)
  */
-
 int main(void)
 {
-	char x;
+	int x = 97;
+	int y = 65;
 
-	char y;
-
-	x = 'a';
-	y = 'A';
-	while
-		(x <= 'z') {
-			putchar(x);
-			x++;
-		}
-	while
-		(y <= 'z') {
-			putchar(y);
-			y++;
-		}
+	while (x <= 122)
+	{
+		putchar(x);
+		x++;
+	}
+	while (y <= 90)
+	{
+		putchar(y);
+		y++;
+	}
 	putchar('\n');
 	return (0);
 }
