@@ -7,9 +7,9 @@
 
 /**
  * main - Lists all the natural numbers below 1024 (excluded)
- * 	  that are multiples of 3 0r 5.
+ * that are multiples of 3 or 5.
  *
- * Return: Everytime return 0.
+ * Return: Always returns 0.
  */
 int main(void)
 {
@@ -21,7 +21,7 @@ int main(void)
 			sum += i;
 	}
 
-	printf("%\n", sum);
+	printf("%d\n", sum);
 
 	return (0);
 }
