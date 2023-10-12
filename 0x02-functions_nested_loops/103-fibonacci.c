@@ -1,14 +1,14 @@
 #include <stdio.h>
 
 /**
- * main - finds and prints the sum of the even-valued terms
- * followed by a new line
- * Return: Everytime return 0 (success)
+ * main - Entry point of the program
+ *
+ * Return: Always returns 0 (success).
  */
 int main(void)
 {
 	int i;
-	unsigned llong int j, k, next, sum;
+	unsigned long j, k, next, sum;
 
 	j = 1;
 	k = 2;
@@ -18,15 +18,14 @@ int main(void)
 	{
 		if (j < 4000000 && (j % 2) == 0)
 		{
-			sum = sum + j;
+			sum += j;
 		}
 		next = j + k;
 		j = k;
 		k = next;
 	}
 
-	printf("%lu\n", sum);
+	printf("The sum of even-valued terms not exceeding 4,000,000 is: %lu\n", sum);
 
 	return (0);
 }
-
