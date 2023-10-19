@@ -1,6 +1,9 @@
 #ifndef MAIN_H
 #define MAIN_H
 
+/**
+ * this files contains all the prototypes
+ */
 int _putchar(char c);
 char *_strcat(char *dest, char *src);
 char *_strncat(char *dest, char *src, int n);
