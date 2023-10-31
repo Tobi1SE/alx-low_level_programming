@@ -1,10 +1,10 @@
 #include "main.h"
 #include <stdlib.h>
 /**
- * create_array - this function writes an array of size and assign char o
+ * create_array - this function writes an array of size and assign char c
  * @size: size of array
- * @o: char to assign
- * Description: write an arrary of size and assign char o
+ * @c: char to assign
+ * Description: write an arrary of size and assign char c
  * Return: ointer to array, NULL if fail
  */
 char *create_array(unsigned int size, char c)
