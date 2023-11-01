@@ -4,7 +4,7 @@
  * argstostr - this function as the main entry
  * @ac: int input
  * @av: the double pointer array
- * Return: Everytime return 0 (suceess)
+ * Return:  0
  */
 char *argstostr(int ac, char **av)
 {
