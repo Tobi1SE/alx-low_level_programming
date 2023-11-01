@@ -1,7 +1,8 @@
 #include "main.h"
 #include <stdlib.h>
 /**
- * str_concat - this functions adds end of inputs together for size
+ * str_concat - this functions adds end
+ * of inputs together for size
  * @s1: input value one
  * @s2: input alue two
  * Return: concat of s1 and s2
